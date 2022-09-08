@@ -1,15 +1,30 @@
 {
   "store.home": {
-    "blocks": ["rich-text", "info-card", "info-card#button-right"]
+    "blocks": [
+      "rich-text",
+      "rich-text#secundary",
+      "info-card",
+      "info-card#button-right"
+    ]
   },
   "rich-text": {
     "props": {
       "text": "Seja Bem-Vindo(a)",
       "textPosition": "CENTER",
-      "font": "t-heading-1"
-      
+      "font": "t-heading-1",
+      "blockClass": "texto"
     }
   },
+  "rich-text#secundary": {
+    "props": {
+      "text": "ao curso da CERF",
+      "textPosition": "CENTER",
+      "font": "t-heading-4",
+      "marginTop": "2",
+      "blockClass": "secundary-text"
+    }
+  },
+
   "info-card": {
     "props": {
       "isFullModeStyle": false,
@@ -34,6 +49,6 @@
       "callToActionText": "Explore",
       "callToActionUrl": "/sale/d",
       "textAlignment": "center"
+    }
   }
-}
 }
