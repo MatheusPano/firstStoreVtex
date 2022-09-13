@@ -1,4 +1,9 @@
-.paragraph--secundary-text{
-    background: #ffff;
-    color: #0000;
+.paragraph--third-text{
+    color: rgb(2, 103, 253);
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.paragraph{
+    margin-bottom: 5px;
 }

@@ -1,29 +1,43 @@
 {
   "store.home": {
     "blocks": [
+      "hello-world",
       "rich-text",
       "rich-text#secundary",
+      "rich-text#third",
+      "slider-layout#home",
       "info-card",
-      "info-card#button-right"
+      "info-card#button-right",
+      "image#eletronics",
+      "image#major-appliance"
+      
     ]
   },
   "rich-text": {
     "props": {
       "text": "Seja Bem-Vindo(a)",
       "textPosition": "CENTER",
-      "font": "t-heading-1",
-      "blockClass": "texto"
+      "font": "t-heading-1"
     }
   },
   "rich-text#secundary": {
     "props": {
-      "text": "ao curso da CERF",
+      "text": "ao curso da",
+      "textPosition": "CENTER",
+      "font": "t-heading-4",
+      "marginTop": "2"
+    }
+  },
+  "rich-text#third": {
+    "props": {
+      "text": "CERF",
       "textPosition": "CENTER",
       "font": "t-heading-4",
       "marginTop": "2",
-      "blockClass": "secundary-text"
+      "blockClass": "third-text"
     }
   },
+   
 
   "info-card": {
     "props": {
@@ -36,6 +50,18 @@
       "callToActionText": "Explore",
       "callToActionUrl": "/sale/d",
       "textAlignment": "center"
+    }
+  },
+  "image#eletronics": {
+    "props": {
+      "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/electronics_banner___25d69b49f8224b369375e68513b4d593.png",
+      "maxWidth": "100%"
+    }
+  },
+  "image#major-appliance": {
+    "props": {
+      "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/major_appliance_banner___bb10093866a127345ddfbcca3efa5022.png",
+      "maxWidth": "100%"
     }
   },
   "info-card#button-right": {
